@@ -24,4 +24,4 @@ RUN npm ci --only=production
 COPY --from=builder /usr/src/app/dist .
 
 EXPOSE 8080
-CMD [ "node", "server.js" ]
+CMD [ "node", "index.js" ]
