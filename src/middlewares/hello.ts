@@ -7,7 +7,7 @@ export const helloMiddleware = (request: Request, response: Response) => {
         })
     } else {
         return response.send({
-            message: `Hello ${request.query.name}`
+            message: `Hello World. I'm ${request.query.name}`
         })
     }
 }
